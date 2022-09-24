@@ -1,0 +1,17 @@
+/** @format */
+
+#main-doc {
+  display: flex;
+  width: 100%;
+}
+#navbar {
+  width: 40%;
+}
+.sections {
+  width: 60%;
+}
+@media screen and (max-width: 600px) {
+  #navbar {
+    width: 100%;
+  }
+}
